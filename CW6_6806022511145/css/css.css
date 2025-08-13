@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    color: #a35802;
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    background-color: rgb(255, 216, 167);
+}
+
+
+
+
+/*navvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvtop*/
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 60px;
+    align-content: center;
+}
+
+.navtop_left a{
+    text-decoration: none;
+    align-content: center;
+    padding: 3%;
+    font-weight: bold;
+    color: #a35802;
+    height: 60px;
+}
+
+.navtop_left{
+    background-color: antiquewhite;
+    display: flex;
+    height: 60px;
+
+}
+
+.navtop_left :hover{
+    background-color: #a35802;
+    color: aliceblue;
+}
+
+.search{
+    align-content: center;
+    text-align: end;
+    background-color: antiquewhite;
+}
+
+.search input{
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.search button{
+    width: 33px;
+    height: 33px;
+    border-radius: 5px ;
+    background-color: #a35802;
+    color: #ffffff;
+    
+}
+
+
+
+
+
+
+
+/*infooooooooooooooooooooooooooooooooooooo index*/
+.infoo{
+    display: grid;
+    grid-template-columns: 80% auto;
+    background-color: antiquewhite;
+    width: 100%;
+    height: 65%;
+    font-size: large;
+
+}
+
+
+
+
+
+
+/*infooooooooooooooooooooooooooooooooooooo    left*/
+.infoo_left{
+    background-color: rgb(252, 248, 255);
+    padding-left: 20px;
+    padding-right: 15px;
+    justify-items: left;
+    padding-top: 3%;
+    padding: 3%;
+}
+
+table{
+    width: 99%;
+    border-collapse: collapse;
+}
+
+td{
+    height: 30px;
+}
+
+.table_head{
+    background-color: #a35802;
+    color: #ffffff;
+}
+
+.table_footer{
+    background-color: #9a7041;
+    color: #ffffff;
+}
+
+
+.left{
+    width: 80%;
+    padding-left: 2%;
+}
+.right{
+    width: 20%;
+    padding-left: 2%;
+}
+
+
+
+
+
+
+
+
+/*infooooooooooooooooooooooooooooooooooooo    right*/
+
+.infoo_right{
+    background-color: rgb(255, 209, 135);
+    padding-top: 1%;
+    margin-top: 2%;
+}
+
+.infoo_right a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.infoo_right :hover{
+    background-color: rgb(255, 255, 255);
+    color: #a35802;
+}
+
+.link{
+    border-radius: 5px;
+    padding: 3%;
+    background-color: rgb(168, 109, 26);
+    margin: 3%;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+/*infoooooooooooooooooooooooooooo profile*/
+.img{
+    display: flex;
+    width: 100%;
+}
+
+img{
+    width: 30%;
+    margin: 3%;
+    margin-left: 0%;
+    border-radius: 10px;
+    margin-right: 15%;
+}
+
+
+
+
+
+/*infoooooooooooooooooooooooooooo contact*/
+iframe{
+    width: 70%;
+    height: 300px;
+}
+
+
+
+
+
+/*infoooooooooooooooooooooooooooo register*/
+.info_register{
+    padding: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.regis{
+    width: 100%;
+    background-color: #c6bdbd;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(228, 221, 212);
+    padding-left: 25%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    height: auto;
+}
+
+.regis input{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 70%;
+    height: 30px;
+}
+
+.regis button{
+    width: 70%;
+    padding: 2%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+.bt_regiscf button{
+    background-color:#dfcdb9;
+    color: #292828;
+}
+
+.bt_regiscf :hover{
+    background-color: #a35802;
+    color: white;
+}
+.bt_regiscc :hover{
+    background-color: #ff2a00;
+    color: white;
+}
+
+
+
+
+
+.footer{
+    text-align: center;
+    align-content: center;
+    height: 15vh;
+    background-color: beige;
+    color: #555454;
+}
