@@ -80,7 +80,7 @@ nav {
     grid-template-columns: 80% auto;
     background-color: antiquewhite;
     width: 100%;
-    height: 65%;
+    min-height: 65vh;
     font-size: large;
 
 }
@@ -257,6 +257,7 @@ iframe{
 
 
 .footer{
+    position: sticky;
     text-align: center;
     align-content: center;
     height: 80px;
