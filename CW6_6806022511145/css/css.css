@@ -8,7 +8,7 @@
     color: #a35802;
     text-align: center;
     align-content: center;
-    height: 15vh;
+    height: 120px;
     background-color: rgb(255, 216, 167);
 }
 
@@ -63,6 +63,8 @@ nav {
     border-radius: 5px ;
     background-color: #a35802;
     color: #ffffff;
+    padding: 5px;
+    margin-right: 2%;
     
 }
 
@@ -229,18 +231,24 @@ iframe{
     padding: 2%;
     margin-top: 2%;
     margin-bottom: 1%;
+    border: 0;
 }
 .bt_regiscf button{
-    background-color:#dfcdb9;
+    background-color:#a35802;
+    color: #292828;
+}
+
+.bt_regiscc button{
+    background-color:#ff2a00;
     color: #292828;
 }
 
 .bt_regiscf :hover{
-    background-color: #a35802;
+    background-color: #b56d1a;
     color: white;
 }
 .bt_regiscc :hover{
-    background-color: #ff2a00;
+    background-color: #ff512e;
     color: white;
 }
 
@@ -251,7 +259,7 @@ iframe{
 .footer{
     text-align: center;
     align-content: center;
-    height: 15vh;
+    height: 80px;
     background-color: beige;
     color: #555454;
 }
