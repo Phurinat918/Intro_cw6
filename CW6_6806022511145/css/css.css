@@ -10,6 +10,7 @@
     align-content: center;
     height: 120px;
     background-color: rgb(255, 216, 167);
+    text-shadow: #a35802 0px 0px 3px;
 }
 
 
@@ -31,6 +32,7 @@ nav {
     font-weight: bold;
     color: #a35802;
     height: 60px;
+    font-weight: bold;
 }
 
 .navtop_left{
@@ -43,6 +45,7 @@ nav {
 .navtop_left :hover{
     background-color: #a35802;
     color: aliceblue;
+    text-shadow: #ffffff 0px 0px 10px;
 }
 
 .search{
@@ -55,6 +58,9 @@ nav {
     width: 40%;
     height: 35px;
     border-radius: 10px;
+    box-shadow: #858377 0px 0px 7px;
+    border: 0;
+    
 }
 
 .search button{
@@ -65,9 +71,16 @@ nav {
     color: #ffffff;
     padding: 5px;
     margin-right: 2%;
+    box-shadow: #858377 0px 0px 7px;
+    border: 0;
     
 }
 
+.search button:hover{
+    background-color: #b56d1a;
+    color: #ffffff;
+    box-shadow: #858377 0px 0px 15px;
+}
 
 
 
@@ -141,7 +154,6 @@ td{
 .infoo_right{
     background-color: rgb(255, 209, 135);
     padding-top: 1%;
-    margin-top: 2%;
 }
 
 .infoo_right a{
@@ -152,6 +164,7 @@ td{
 .infoo_right :hover{
     background-color: rgb(255, 255, 255);
     color: #a35802;
+    text-shadow: #a35802 0px 0px 7px;
 }
 
 .link{
@@ -160,6 +173,7 @@ td{
     background-color: rgb(168, 109, 26);
     margin: 3%;
     color: #ffffff;
+    box-shadow: #858377 0px 0px 7px;
 }
 
 
@@ -180,6 +194,7 @@ img{
     margin-left: 0%;
     border-radius: 10px;
     margin-right: 15%;
+    box-shadow: #858377 0px 0px 15px;
 }
 
 
@@ -217,6 +232,7 @@ iframe{
     padding-top: 5%;
     padding-bottom: 5%;
     height: auto;
+    box-shadow: #858377 0px 0px 7px;
 }
 
 .regis input{
@@ -224,6 +240,9 @@ iframe{
     margin-bottom: 2%;
     width: 70%;
     height: 30px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: #858377 0px 0px 5px;
 }
 
 .regis button{
@@ -236,20 +255,24 @@ iframe{
 .bt_regiscf button{
     background-color:#a35802;
     color: #292828;
+    box-shadow: #858377 0px 0px 5px;
 }
 
 .bt_regiscc button{
     background-color:#ff2a00;
     color: #292828;
+    box-shadow: #858377 0px 0px 5px;
 }
 
 .bt_regiscf :hover{
     background-color: #b56d1a;
     color: white;
+    box-shadow: #858377 0px 0px 15px;
 }
 .bt_regiscc :hover{
     background-color: #ff512e;
     color: white;
+    box-shadow: #858377 0px 0px 15px;
 }
 
 
